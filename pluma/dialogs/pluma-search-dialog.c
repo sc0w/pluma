@@ -418,8 +418,8 @@ pluma_search_dialog_init (PlumaSearchDialog *dlg)
 
 	dlg->priv->find_button = gtk_button_new_from_stock (GTK_STOCK_FIND);
 	dlg->priv->replace_all_button = gtk_button_new_with_mnemonic (_("Replace _All"));
-	dlg->priv->replace_button = pluma_gtk_button_new_with_stock_icon (_("_Replace"),
-									  GTK_STOCK_FIND_AND_REPLACE);
+	dlg->priv->replace_button = pluma_gtk_button_new_with_icon (_("_Replace"),
+								    "edit-find-replace");
 
 	gtk_dialog_add_action_widget (GTK_DIALOG (dlg),
 				      dlg->priv->replace_all_button,

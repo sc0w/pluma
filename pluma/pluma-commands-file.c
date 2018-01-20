@@ -585,7 +585,7 @@ replace_read_only_file (GtkWindow *parent, GFile *file)
 
 	pluma_dialog_add_button (GTK_DIALOG (dialog),
 				 _("_Replace"),
-			  	 GTK_STOCK_SAVE_AS,
+			  	 "document-save-as",
 			  	 GTK_RESPONSE_YES);
 
 	gtk_dialog_set_default_response	(GTK_DIALOG (dialog),
@@ -1224,7 +1224,7 @@ revert_dialog (PlumaWindow   *window,
 
 	pluma_dialog_add_button (GTK_DIALOG (dialog),
 				 _("_Revert"),
-				 GTK_STOCK_REVERT_TO_SAVED,
+				 "document-revert",
 				 GTK_RESPONSE_OK);
 
 	gtk_dialog_set_default_response	(GTK_DIALOG (dialog),

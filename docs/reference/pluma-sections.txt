@@ -222,7 +222,7 @@ PlumaPanelPrivate
 PlumaPanel
 pluma_panel_new
 pluma_panel_add_item
-pluma_panel_add_item_with_stock_icon
+pluma_panel_add_item_with_icon
 pluma_panel_remove_item
 pluma_panel_activate_item
 pluma_panel_item_is_active

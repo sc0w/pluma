@@ -815,7 +815,7 @@ install_scheme_clicked (GtkButton              *button,
 
 	pluma_dialog_add_button (GTK_DIALOG (chooser), 
 				 _("A_dd Scheme"),
-				 "gtk-add",
+				 "list-add",
 				 GTK_RESPONSE_ACCEPT);
 
 	gtk_window_set_destroy_with_parent (GTK_WINDOW (chooser), TRUE);
