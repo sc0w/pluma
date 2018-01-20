@@ -3648,10 +3648,10 @@ create_side_panel (PlumaWindow *window)
 				window);
 
 	documents_panel = pluma_documents_panel_new (window);
-	pluma_panel_add_item_with_stock_icon (PLUMA_PANEL (window->priv->side_panel),
-					      documents_panel,
-					      _("Documents"),
-					      "text-x-generic");
+	pluma_panel_add_item_with_icon (PLUMA_PANEL (window->priv->side_panel),
+					documents_panel,
+					_("Documents"),
+					"text-x-generic");
 }
 
 static void
