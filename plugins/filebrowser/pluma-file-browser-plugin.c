@@ -1141,7 +1141,7 @@ on_confirm_no_trash_cb (PlumaFileBrowserWidget * widget,
 	                                                       GTK_MESSAGE_QUESTION,
 	                                                       message,
 	                                                       secondary,
-	                                                       GTK_STOCK_DELETE,
+	                                                       "gtk-delete",
 	                                                       NULL);
 	g_free (secondary);
 
@@ -1176,7 +1176,7 @@ on_confirm_delete_cb (PlumaFileBrowserWidget *widget,
 	                                                       GTK_MESSAGE_QUESTION,
 	                                                       message,
 	                                                       secondary,
-	                                                       GTK_STOCK_DELETE,
+	                                                       "gtk-delete",
 	                                                       NULL);
 
 	g_free (message);
